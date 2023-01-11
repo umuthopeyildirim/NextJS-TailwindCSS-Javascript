@@ -1,7 +1,11 @@
 {
-  "name": "myapp",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nextjs-tailwindcss-javascript-starter",
+  "version": "1.0.0",
+  "description": "Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.",
+  "private": false,
+  "repository": "https://github.com/umuthopeyildirim/NextJS-TailwindCSS-Javascript.git",
+  "author": "Umut Hope YILDIRIM <umut475@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,8 +14,11 @@
   },
   "dependencies": {
     "@next/font": "13.1.1",
+    "autoprefixer": "^10.4.13",
     "next": "13.1.1",
+    "postcss": "^8.4.21",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.4"
   }
 }
